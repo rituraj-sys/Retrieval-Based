@@ -2,7 +2,7 @@
 
 services:
   - name: Retrieval-Based  # Name of your web service
-    region: oregon-us-west  # Region where your service runs
+    region: singapore  # Region where your service runs
     buildCommand: pip install -r requirements.txt  # Command to install dependencies
     startCommand: gunicorn app:app  # Command to start your Flask app
     healthCheckPath: /healthz  # Path for health checks
