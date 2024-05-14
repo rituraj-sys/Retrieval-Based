@@ -8,8 +8,6 @@ pymongo
 requests
 uuid
 python-dotenv
-datetime
-email
 
 
 
