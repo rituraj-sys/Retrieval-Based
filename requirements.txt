@@ -9,5 +9,7 @@ requests
 uuid
 python-dotenv
 datetime
-smtplib
 email
+
+
+
