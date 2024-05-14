@@ -1,0 +1,14 @@
+flask
+twilio
+google-cloud-dialogflow
+dialogflow
+pillow
+gunicorn
+pymongo
+requests
+uuid
+python-dotenv
+datetime
+random
+smtplib
+email
