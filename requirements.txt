@@ -9,6 +9,5 @@ requests
 uuid
 python-dotenv
 datetime
-random
 smtplib
 email
