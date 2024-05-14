@@ -15,8 +15,8 @@ from email.mime.multipart import MIMEMultipart
 app = Flask(__name__)
 app.secret_key = os.urandom(32).hex()
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "D:\\Agent22\\agent22-9ntj-22db7b9d5eb5.json"
-client = MongoClient('mongodb://localhost:27017/')
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "agent22-9ntj-22db7b9d5eb5.json"
+client = MongoClient('mongodb+srv://riturajpandey0:helloworld12@cluster0.eblupqj.mongodb.net/')
 db = client['chat_db']  # Assuming 'chat_db' is your main database
 project_id = 'agent22-9ntj'
 language_code = 'en'
