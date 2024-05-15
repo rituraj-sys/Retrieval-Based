@@ -257,8 +257,10 @@ def find_next_available_time(tomorrow=True):
 
     return None
 
-@app.route("/home", methods="POST")
-     <h2>hello</h2>
+@app.route("/home")
+def home():
+    return "<h2>hello</h2>"
+     
 
 if __name__ == "__main__":
     app.run(debug=True)
