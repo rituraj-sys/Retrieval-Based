@@ -72,7 +72,7 @@ def send_otp_email(email, otp):
         server.sendmail(sender_email, receiver_email, message.as_string())
 
 
-@app.route("/webhook", methods=["GET","POST"])
+@app.route("/", methods=["GET","POST"])
 
 def webhook():
     global response_text
@@ -257,7 +257,8 @@ def find_next_available_time(tomorrow=True):
 
     return None
 
-
+@app.route("/home", methods="POST")
+     <h2>hello</h2>
 
 if __name__ == "__main__":
     app.run(debug=True)
