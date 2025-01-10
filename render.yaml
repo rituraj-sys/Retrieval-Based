@@ -8,7 +8,7 @@ services:
     healthCheckPath: /healthz  # Path for health checks
     env:
       GOOGLE_APPLICATION_CREDENTIALS: agent22-9ntj-22db7b9d5eb5.json  # Path to your Dialogflow service account key in the repository
-      MONGO_URI: mongodb+srv://riturajpandey0:helloworld12@cluster0.eblupqj.mongodb.net/  # MongoDB connection URI
-      auth_token : 'e75518c9a196b1db4cffb2e80d3b3099'  
-      account_sid : 'AC1081794ca1a70d62999b9b9ddff62e01'
+      MONGO_URI: mongodb+srv://riturajpandey:hello@cluster0.eblupqj.mongodb.net/  # MongoDB connection URI
+      auth_token : 'e75518c9a196b1db4cffb2e80d3b0000'  
+      account_sid : 'AC1081794ca1a70d62999b9b9ddff66f44'
     automaticDeploy: true  # Enable automatic deployment on push
